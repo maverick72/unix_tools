@@ -1,15 +1,15 @@
-# unix_tools
+#Unix Tools
 
-- Tools i need as a system administrator
+##Tools i need as a system administrator
 
-Packages:
+##Packages:
 
 - git
 - vim
 - tree
 - curl
 
-Configuration:
+##Configuration:
 
 - bashrc
 - bash_profile
@@ -19,7 +19,7 @@ Configuration:
 - git config                # Aliases and stuff
 - git pre-commit            # them puppet checks
 
-Gems:
+##Gems:
 
 - puppet-lint
 
