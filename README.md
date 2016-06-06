@@ -13,11 +13,11 @@ Configuration:
 
 - bashrc
 - bash_profile
-- git-prompt.sh   # Branch in PS1
+- git-prompt.sh             # Branch in PS1
 - vimrc
 - vim Mustang color scheme  # Pruutty
-- git config    # Aliases and stuff
-- git pre-commit  # them puppet checks
+- git config                # Aliases and stuff
+- git pre-commit            # them puppet checks
 
 Gems:
 
