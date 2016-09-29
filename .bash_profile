@@ -13,8 +13,13 @@ IN="\[\033[0m\]"
 export PS1="$NM[ $HI\u $HII\h \[\033[32m\]\w - \$(parse_git_branch)\[\033[00m\] $ "
 
 # alias
-alias ls='ls -GhF'
-alias ll='ls -GlAhF'
 alias cd..="cd .."
 alias c="clear"
 alias vi="vim"
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l.='ls -d .* --color=auto'
+alias ll='ls -l --color=auto'
+alias ls='ls -GhF --color=auto'
+alias which='alias | /usr/bin/which --tty-only --read-alias --show-dot --show-tilde'
